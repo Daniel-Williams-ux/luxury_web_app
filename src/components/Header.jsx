@@ -7,7 +7,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white bg-opacity-80 backdrop-blur-lg shadow-md">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white bg-opacity-80 backdrop-blur-lg ">
       <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 flex items-center justify-between h-16">
         {/* Logo */}
         <div className="text-2xl font-semibold text-gray-900">
@@ -16,26 +16,26 @@ const Header = () => {
 
         {/* Navigation Links - Hidden on mobile */}
         <nav className="hidden md:flex space-x-8 font-semibold">
-          <Link to="/" className="text-gray-700 hover:text-menuColor transition-colors">
+          <Link to="/" className="text-gray-700 hover:text-sky-800 transition-colors">
             Home
           </Link>
-          <Link to="/about" className="text-gray-700 hover:text-menuColor transition-colors">
+          <Link to="/about" className="text-gray-700 hover:text-sky-800 transition-colors">
             About
           </Link>
-          <Link to="/portfolio" className="text-gray-700 hover:text-menuColor transition-colors after:content-['']">
+          <Link to="/portfolio" className="text-gray-700 hover:text-sky-800 transition-colors after:content-['']">
             Portfolio
           </Link>
-          <Link to="/services" className="text-gray-700 hover:text-menuColor transition-colors after:content-['']">
+          <Link to="/services" className="text-gray-700 hover:text-sky-800 transition-colors after:content-['']">
             Services
           </Link>
-          <Link to="/contact" className="text-gray-700 hover:text-menuColor transition-colors after:content-['']">
+          <Link to="/contact" className="text-gray-700 hover:text-sky-800 transition-colors after:content-['']">
             Contact
           </Link>
         </nav>
 
         {/* Contact Button - Visible on larger screens */}
         <div className="hidden md:flex">
-          <Link to="/contact" className="bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors">
+          <Link to="/contact" className="bg-white font-semibold text-sky-800 px-4 py-2 rounded-lg border border-sky-800 hover:bg-sky-500 hover:text-white transition-colors">
             Get in Touch
           </Link>
         </div>
@@ -100,7 +100,7 @@ const Header = () => {
             </Link>
             <Link
               to="/contact"
-              className="bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-700"
+              className="bg-white text-sky-800 px-4 py-2 rounded-lg border border-sky-500 hover:bg-sky-800 hover:text-white transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Get in Touch

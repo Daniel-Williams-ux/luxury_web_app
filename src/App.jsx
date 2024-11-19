@@ -18,7 +18,6 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
-        {/* Add more routes as needed */}
       </Routes>
     </Router>
   );
