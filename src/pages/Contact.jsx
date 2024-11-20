@@ -5,7 +5,7 @@ import { FaInstagram, FaTwitter, FaFacebook, FaPhone, FaEnvelope, FaMapMarkerAlt
 const Contact = () => {
   return (
     <div
-      className="min-h-screen bg-gradient-to-br from-indigo-200 via-white to-gray-200 py-16 px-8"
+      className="min-h-screen mt-14 bg-gradient-to-br from-indigo-200 via-white to-gray-200 py-16 px-8" fetchpriority="high"
       style={{
         backgroundImage: `url(${contactBg})`,
         backgroundSize: "cover",

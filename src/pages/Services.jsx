@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaCheckCircle } from "react-icons/fa";
-import BackgroundImage from "../assets/backgrounds/services-bg.webp"; // Add a new background
+import BackgroundImage from "../assets/backgrounds/services-bg.webp";
 
 const servicesData = [
   {
