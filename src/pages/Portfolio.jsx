@@ -52,10 +52,10 @@ const Portfolio = () => {
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-64 object-cover"
+              className="w-full h-64 object-cover" fetchpriority="high"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
+              <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
               <p className="text-gray-700">{item.category}</p>
             </div>
           </div>

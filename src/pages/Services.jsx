@@ -37,7 +37,7 @@ const servicesData = [
 const Services = () => {
   return (
     <div
-      className="min-h-screen flex flex-col items-center text-gray-800 mt-12"
+      className="min-h-screen flex flex-col items-center text-gray-800 mt-12" fetchpriority="high"
       style={{
         backgroundImage: `url(${BackgroundImage})`,
         backgroundSize: "cover",

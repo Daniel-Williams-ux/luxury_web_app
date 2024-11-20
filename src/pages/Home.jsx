@@ -46,66 +46,66 @@ const Home = () => {
       </section>
 
       {/* Featured Projects Section */}
-<section className="py-20 px-6 sm:px-12 lg:px-24 bg-gray-100">
-  <div className="max-w-7xl mx-auto text-center">
-    <h2 className="text-3xl md:text-4xl font-bold mb-8">Featured Projects</h2>
-    <p className="text-lg md:text-xl text-gray-600 mb-12">
-      A showcase of our work, blending sophistication with custom luxury designs.
-    </p>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {/* Project 1 */}
-      <div className="relative overflow-hidden bg-white shadow-lg rounded-lg transform hover:scale-105 transition-transform duration-300">
-        <div
-          className="h-64 bg-cover bg-center"
-          style={{ backgroundImage: `url(${Project1})` }}
-        ></div>
-        <div className="p-6 text-left">
-          <h3 className="text-2xl font-semibold mb-2">Project 1</h3>
-          <p className="text-gray-700 mb-4">
-            Designed to bring luxury and comfort into every corner of your home.
+      <section className="py-20 px-6 sm:px-12 lg:px-24 bg-gray-100">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8">Featured Projects</h2>
+          <p className="text-lg md:text-xl text-gray-600 mb-12">
+            A showcase of our work, blending sophistication with custom luxury designs.
           </p>
-          <Link to="/portfolio" className="text-indigo-600 hover:underline">
-            View Details
-          </Link>
-        </div>
-      </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Project 1 */}
+            <div className="relative overflow-hidden bg-white shadow-lg rounded-lg transform hover:scale-105 transition-transform duration-300">
+              <div
+                className="h-64 bg-cover bg-center"
+                style={{ backgroundImage: `url(${Project1})` }}
+              ></div>
+              <div className="p-6 text-left">
+                <h3 className="text-2xl font-semibold mb-2">Project 1</h3>
+                <p className="text-gray-700 mb-4">
+                  Designed to bring luxury and comfort into every corner of your home.
+                </p>
+                <Link to="/portfolio" className="text-indigo-600 hover:underline">
+                  View Details
+                </Link>
+              </div>
+            </div>
 
-      {/* Project 2 */}
-      <div className="relative overflow-hidden bg-white shadow-lg rounded-lg transform hover:scale-105 transition-transform duration-300">
-        <div
-          className="h-64 bg-cover bg-center"
-          style={{ backgroundImage: `url(${Project2})` }}
-        ></div>
-        <div className="p-6 text-left">
-          <h3 className="text-2xl font-semibold mb-2">Project 2</h3>
-          <p className="text-gray-700 mb-4">
-            Designed to bring luxury and comfort into every corner of your home.
-          </p>
-          <Link to="/portfolio" className="text-indigo-600 hover:underline">
-            View Details
-          </Link>
-        </div>
-      </div>
+            {/* Project 2 */}
+            <div className="relative overflow-hidden bg-white shadow-lg rounded-lg transform hover:scale-105 transition-transform duration-300">
+              <div
+                className="h-64 bg-cover bg-center"
+                style={{ backgroundImage: `url(${Project2})` }}
+              ></div>
+              <div className="p-6 text-left">
+                <h3 className="text-2xl font-semibold mb-2">Project 2</h3>
+                <p className="text-gray-700 mb-4">
+                  Designed to bring luxury and comfort into every corner of your home.
+                </p>
+                <Link to="/portfolio" className="text-indigo-600 hover:underline">
+                  View Details
+                </Link>
+              </div>
+            </div>
 
-      {/* Project 3 */}
-      <div className="relative overflow-hidden bg-white shadow-lg rounded-lg transform hover:scale-105 transition-transform duration-300">
-        <div
-          className="h-64 bg-cover bg-center"
-          style={{ backgroundImage: `url(${Project3})` }}
-        ></div>
-        <div className="p-6 text-left">
-          <h3 className="text-2xl font-semibold mb-2">Project 3</h3>
-          <p className="text-gray-700 mb-4">
-            Designed to bring luxury and comfort into every corner of your home.
-          </p>
-          <Link to="/portfolio" className="text-indigo-600 hover:underline">
-            View Details
-          </Link>
+            {/* Project 3 */}
+            <div className="relative overflow-hidden bg-white shadow-lg rounded-lg transform hover:scale-105 transition-transform duration-300">
+              <div
+                className="h-64 bg-cover bg-center"
+                style={{ backgroundImage: `url(${Project3})` }}
+              ></div>
+              <div className="p-6 text-left">
+                <h3 className="text-2xl font-semibold mb-2">Project 3</h3>
+                <p className="text-gray-700 mb-4">
+                  Designed to bring luxury and comfort into every corner of your home.
+                </p>
+                <Link to="/portfolio" className="text-indigo-600 hover:underline">
+                  View Details
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       {/* Testimonials Section */}
       <section className="py-20 px-6 sm:px-12 lg:px-24 bg-white">
