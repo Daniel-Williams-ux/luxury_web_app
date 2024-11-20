@@ -1,15 +1,15 @@
 import React from "react";
-import OfficeImage from "../assets/projects/office.webp";
+import OfficeImage from "../assets/projects/about-hero.webp";
 
 const About = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-16">
       {/* Section 1: Intro Text */}
       <section className="text-center space-y-4 sm:space-y-6 lg:mb-10 mt-10 sm:mt-20">
-      <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            About Us
+      <h1 className="text-4xl text-sky-500 md:text-6xl font-bold mb-4">
+      Who We Are
           </h1>
-          <p className="text-lg md:text-xl">
+          <p className="text-lg md:text-xl text-blue-950">
             Redefining luxury interiors with innovative POP designs, where creativity meets craftsmanship.
           </p>
       </section>
@@ -22,7 +22,7 @@ const About = () => {
       {/* Mission and Vision */}
       <section className="py-16 px-6 sm:px-12 lg:px-24 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+          <h2 className="text-3xl text-sky-500 md:text-4xl font-bold text-center mb-8">
             Our Vision & Mission
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -45,7 +45,7 @@ const About = () => {
       {/* The Founder Story */}
       <section className="py-16 px-6 sm:px-12 lg:px-24 bg-gray-100">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+          <h2 className="text-3xl text-sky-500 md:text-4xl font-bold text-center mb-8">
             Meet the Founder
           </h2>
           <div className="flex flex-col md:flex-row items-center gap-8">
@@ -72,7 +72,7 @@ const About = () => {
       {/* Why Choose Us */}
       <section className="py-16 px-6 sm:px-12 lg:px-24 bg-white">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">
+          <h2 className="text-3xl text-sky-500 md:text-4xl font-bold mb-8">
             Why Choose Us?
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">

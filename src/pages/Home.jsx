@@ -2,7 +2,7 @@
 import React from "react";
 import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa';
 import { Link } from "react-router-dom";
-import HeroImage from "../assets/image.webp";
+import HeroImage from "../assets/home-hero.webp";
 import Project1 from "../assets/projects/project-1.webp";
 import Project2 from "../assets/projects/project-2.webp";
 import Project3 from "../assets/projects/project-3.webp";
@@ -41,8 +41,6 @@ const Home = () => {
             Explore tailored designs that transform homes into modern masterpieces.
           </p>
         </div>
-
-
       </section>
 
       {/* Featured Projects Section */}
@@ -64,7 +62,7 @@ const Home = () => {
                 <p className="text-gray-700 mb-4">
                   Designed to bring luxury and comfort into every corner of your home.
                 </p>
-                <Link to="/portfolio" className="text-indigo-600 hover:underline">
+                <Link to="/portfolio" className="text-sky-500 hover:underline">
                   View Details
                 </Link>
               </div>
@@ -81,7 +79,7 @@ const Home = () => {
                 <p className="text-gray-700 mb-4">
                   Designed to bring luxury and comfort into every corner of your home.
                 </p>
-                <Link to="/portfolio" className="text-indigo-600 hover:underline">
+                <Link to="/portfolio" className="text-sky-500 hover:underline">
                   View Details
                 </Link>
               </div>
@@ -98,7 +96,7 @@ const Home = () => {
                 <p className="text-gray-700 mb-4">
                   Designed to bring luxury and comfort into every corner of your home.
                 </p>
-                <Link to="/portfolio" className="text-indigo-600 hover:underline">
+                <Link to="/portfolio" className="text-sky-500 hover:underline">
                   View Details
                 </Link>
               </div>
@@ -130,72 +128,23 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Footer Section  */}
-      <footer className="bg-sky-800 py-10 sm:py-12 text-white space-y-8 sm:space-y-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Top Footer */}
-          <div className="flex flex-col md:flex-row justify-between items-start space-y-6 sm:space-y-0">
-            <div>
-              <h4 className="lg:text-6xl sm:text-lg font-semibold font-dmSans leading-snug">
-              Let’s Redefine <br/> Your Space <br/>
-              </h4>
-            </div>
-            <div className="text-left md:text-right space-y-4 sm:space-y-0">
-              <p className="text-base sm:text-base pb-3">
-                Leverage our database to equip your <br/> restaurant with accurate nutritional data.
-              </p>
-              <button className="bg-white text-sky-800 text-sm px-10 py-2 rounded-lg hover:bg-headerColor hover:text-white">
-                Send us a mail
-              </button>
-            </div>
-          </div>
-
-          {/* Bottom Footer */}
-          <div className="flex flex-col md:flex-row justify-between mt-8 sm:mt-12 space-y-8 md:space-y-0 md:space-x-8">
-            {/* Logo and Socials */}
-            <div className="space-y-2">
-              <Link href="/">
-                <img src="/images/logo.png" alt="logo" width={100} height={40} className="h-10 w-auto" />
-              </Link>
-              <div className="flex space-x-4">
-                <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                  <FaInstagram className="h-6 w-6 text-white hover:text-headerColor transition-colors" />
-                </Link>
-                <Link href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                  <FaTwitter className="h-6 w-6 text-white hover:text-headerColor transition-colors" />
-                </Link>
-                <Link href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                  <FaFacebook className="h-6 w-6 text-white hover:text-headerColor transition-colors" />
-                </Link>
-              </div>
-            </div>
-
-            {/* Address */}
-            <div>
-              <h4 className="font-normal font-dmSans text-lg sm:text-base">Address</h4>
-              <p className="text-sm font-light font-dmSans">123 Fitness St, Healthy City, USA</p>
-            </div>
-
-            {/* Contact Info */}
-            <div>
-              <h4 className="font-normal font-dmSans text-lg sm:text-base">Call us</h4>
-              <p className="text-sm font-light font-dmSans">+123-456-7890</p>
-              <p className="text-sm font-light font-dmSans">+098-765-4321</p>
-              <p className="text-sm font-light font-dmSans">Email: contact@befitapp.com</p>
-            </div>
-
-            {/* Policies */}
-            <div>
-              <h4 className="font-normal font-dmSans text-lg sm:text-base">Our Policies</h4>
-              <ul className="space-y-1 text-sm font-light font-dmSans">
-                <li><Link href="#">Privacy Policy</Link></li>
-                <li><Link href="#">Terms of Use</Link></li>
-                <li><Link href="#">Refund Policy</Link></li>
-              </ul>
-            </div>
-          </div>
+            {/* Call to Action */}
+      <section className="py-20 px-6 sm:px-12 lg:px-24 bg-gray-900 text-white text-center">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Let’s Redefine Your Space
+          </h2>
+          <p className="text-lg mb-8">
+            Discover how we can transform your home into a luxurious retreat with our bespoke POP designs.
+          </p>
+          <a
+            href="/contact"
+            className="inline-block px-6 py-3 bg-indigo-500 rounded-lg hover:bg-indigo-700 transition-all duration-300"
+          >
+            Get in Touch
+          </a>
         </div>
-      </footer>
+      </section>
     </div>
   );
 };
